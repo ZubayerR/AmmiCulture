@@ -1,6 +1,6 @@
 function initMap() {
     // Latitude and Longitude
-    var myLatLng = {lat: -6.207690, lng: 106.985270};
+    var myLatLng = {lat: 39.952874182412494, lng: -75.16738984135816};
 
     var map = new google.maps.Map(document.getElementById('myMap'), {
         zoom: 17,
@@ -10,6 +10,6 @@ function initMap() {
     var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
-        title: 'South Jakarta, INA' // Title Location
+        title: '1319 Market St #25 Philadelphia, PA 19107 USA' // Title Location
     });
 }
